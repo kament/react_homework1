@@ -3,6 +3,6 @@ import BlogPreview from './blog-preview'
 
 export default ({blogs}) => (
     <ul>
-        {blogs.map((blog, index) => (<BlogPreview header={blog.header} key={blog.id} />))}
+        {blogs.map((blog, index) => (<BlogPreview title={blog.title} key={blog.id} />))}
     </ul>
 );

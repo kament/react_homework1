@@ -1,5 +1,5 @@
 import React from 'react'
 
-export default ({id, header}) => (
-    <li><h3>{header}</h3></li>
+export default ({id, title}) => (
+    <li><h3>{title}</h3></li>
 );
